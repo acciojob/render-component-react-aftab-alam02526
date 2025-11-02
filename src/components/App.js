@@ -1,11 +1,12 @@
 import React, {Component, useState} from "react";
 import ReactDOM from "react-dom/client";
 import '../styles/App.css';
+import Line from ../components;
 
 const App = () => {
   return (
-    <div id="main">
-      <p>I am learning React.My life is getting better.</p>
+    <div id="main"> 
+    <Line />
     </div>
   );
 };
